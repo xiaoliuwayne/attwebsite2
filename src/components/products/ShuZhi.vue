@@ -2,7 +2,7 @@
   <div >
     <!--574 116-->
     <h2 style="margin: 20px 0 10px 30% ">{{title}}</h2>
-    <div style="width: 40%;height: 180px;border: 1px saddlebrown solid;margin: 30px auto;border-radius:5px;" v-for="pro in Products">
+    <div style="width: 40%;height: 180px;margin: 30px auto;" class="bord-rad img-border" v-for="pro in Products">
       <router-link :to="{name:'Detail',params:{'nameCN':pro.nameCN}}">
       <div style="float: left;width: 220px;height:116px;margin:20px 50px 20px 20px " >
         <p class="font_7" style="font-size: 17px">{{pro.nameCN}}</p>
