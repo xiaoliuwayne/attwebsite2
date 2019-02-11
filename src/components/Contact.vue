@@ -84,12 +84,6 @@
     /*width: 40px;*/
     /*height: 31px;*/
   }
-  .font_7 {
-    font: normal normal normal 15px/1.4em 'times new roman',times,serif;
-    font-size: 15px;
-    line-height: 1.4em;
-    color: #441C08;
-  }
 
   .newline-div{
     border-top:3px solid black;
