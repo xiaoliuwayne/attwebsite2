@@ -29,7 +29,7 @@
     </div>
     <!--main-->
     <div style="width: 70%;">
-      <el-tag class="font_2" style="font-size: 30px;border: 1px solid #441C08;height: 45px;border-radius:5px;background: white">新闻中心</el-tag>
+      <el-tag class="font_2 img-border bord-rad" style="font-size: 30px;height: 45px;background: white">新闻中心</el-tag>
       <div>
         <el-row >
           <el-col :span="8" style="width: 100%" v-for=" img in smallList">
