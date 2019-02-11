@@ -11,6 +11,7 @@ import ShuZhi from '../components/products/ShuZhi.vue'
 import TianJiaJi from '../components/products/TianJiaJi.vue'
 import HeChengYuanLiao from '../components/products/HeChengYuanLiao.vue'
 import Detail from '../components/products/details/Detail.vue'
+import NewsDetail from '../components/products/details/NewsDetail.vue'
 
 Vue.use(Router);
 
@@ -24,6 +25,7 @@ const routers = [
   {path:'/TianJiaJi',name:'TianJiaJi',component: TianJiaJi},
   {path:'/HeChengYuanLiao',name:'HeChengYuanLiao',component: HeChengYuanLiao},
   {path:'/Detail',name:'Detail',component: Detail},
+  {path:'/NewsDetail',name:'NewsDetail',component: NewsDetail},
   // {path:'/test',name:'Test',component: Test}
 ];
 
