@@ -63,5 +63,20 @@ a {
     color: #6A4B3B;
   }
 
+.font_7 {
+  font: normal normal normal 15px/1.4em 'times new roman',times,serif;
+  font-size: 15px;
+  line-height: 1.4em;
+  color: #441C08;
+}
+
+.img-border{
+  border: 1px  solid #441C08;
+}
+
+.bord-rad{
+  border-radius:5px;
+}
+
 
 
